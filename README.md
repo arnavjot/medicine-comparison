@@ -1,30 +1,31 @@
-# PharmaCompare
-PharmaCompare is a web application designed to help users search for medicines, compare their prices across various pharmacies, and manage their favorite medicines. The project features a user-friendly interface, seamless navigation, and support for user authentication, making it a powerful platform for finding the best deals on medications.
+# Medicine Price Comparison
+A web app to search for medicines, compare their prices across pharmacies, and manage your favorites. Compare prices, then jump straight to a pharmacy's purchase link.
 
 ---
 
 ## Features
-- **Search Medicines**: Search for medicines using the search bar with live suggestions.
-- **Medicine Details**: View detailed information about a selected medicine, including available pharmacies and their prices.
-- **Favorites Management**: Add and remove medicines to/from your favorites.
-- **User Authentication**: Sign up, log in, and log out securely.
-- **Pharmacy Details**: Compare prices across pharmacies and directly access purchase links.
-- **Pagination**: Navigate through search results and pharmacy listings with pagination.
-- **Tooltips**: View medicine details in hover-enabled tooltips.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Search with live suggestions**: Find medicines as you type.
+- **Medicine details**: See every pharmacy that stocks a medicine, with its price.
+- **Price comparison**: Sort pharmacies by price and open the purchase link directly.
+- **Favorites**: Add and remove medicines from your favorites.
+- **Authentication**: Sign up, log in and log out, secured with JWT.
+- **Pagination**: Page through search results and pharmacy listings.
+- **Tooltips**: Hover over a medicine to see its details.
+- **Responsive design**: Works on desktop and mobile.
 
 ---
 
-## Technologies Used
+## Tech Stack
 ### Frontend
 - React.js
-- Vite.js
-- Bootstrap for styling
-- CSS (index.css for custom styles)
+- Vite
+- Bootstrap
+- Custom CSS (`index.css`)
 
 ### Backend
 - Node.js
 - Express.js
+- JWT authentication
 
 ### Database
 - MongoDB
@@ -35,8 +36,8 @@ PharmaCompare is a web application designed to help users search for medicines, 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/arnavjot/PharmaCompare-Medlr.git
-    cd PharmaCompare
+    git clone https://github.com/arnavjot/medicine-comparison.git
+    cd medicine-comparison
     ```
 
 2. **Install Dependencies**:
@@ -121,7 +122,7 @@ PharmaCompare is a web application designed to help users search for medicines, 
 ## Folder Structure
 
 ```
-PharmaCompare
+medicine-comparison
 ├── backend
 │   ├── config
 │   │   └── db.js
@@ -175,4 +176,3 @@ For any questions or feedback, please contact:
 - Name: Arnavjot Kaur
 - Email: arnavjotkaur.27@gmail.com
 - GitHub: [arnavjot](https://github.com/arnavjot)
-
